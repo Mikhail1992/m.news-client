@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authLink {
+  text-decoration: none;
+  color: var(--tertiary_dark);
+  fill: var(--tertiary_dark);
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 2.0625rem;
+  margin: 0 16px;
+  transition: ease-in-out 0.3s;
+}
+
+.authLink:active,
+.authLink:focus,
+.authLink:hover {
+  color: var(--primary_dark);
+  fill: var(--primary_dark);
+}
+
+.active {
+  color: var(--primary_dark);
+  fill: var(--primary_dark);
+}
+
+.headerRight {
+  margin-left: auto;
+}
+
+.authContainer {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+export const mockArticle = {
+  category: {
+    id: 1,
+    title: 'people',
+    url: 'people',
+    createdAt: '2022-07-24T19:30:49.816Z',
+    updatedAt: '2022-07-24T19:30:49.817Z',
+  },
+  categoryId: 1,
+  content: 'old content',
+  coverImage: 'http://minio.com/news-images/1659435412874.jpg',
+  createdAt: '2022-08-02T10:16:53.097Z',
+  id: 63,
+  picture: 'http://minio.com/news-images/1659435412874.jpg',
+  published: false,
+  spoiler: 'spoiler...',
+  title: 'updated',
+  updatedAt: '2022-08-02T13:49:33.968Z',
+  url: 'url1',
+  userId: 1,
+  views: 0,
+  _count: { comments: 0 },
+};

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border: none;
+}
+
+.logo {
+  font-size: 1.5625rem;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: inline-block;
+  }
+
+  .header {
+    border-bottom: 1px solid var(--gray);
+  }
+
+  .logo svg {
+    width: 93px;
+  }
+}

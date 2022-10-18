@@ -1,0 +1,13 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--tertiary_dark);
+  fill: var(--tertiary_dark);
+}
+
+.count {
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  margin-left: 4px;
+}

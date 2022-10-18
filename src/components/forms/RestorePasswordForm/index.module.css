@@ -1,0 +1,15 @@
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 56px;
+}
+
+.buttons button:first-child {
+  margin-right: 16px;
+}
+
+@media (max-width: 900px) {
+  .buttons {
+    margin-top: 48px;
+  }
+}

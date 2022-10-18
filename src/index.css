@@ -1,0 +1,71 @@
+:root {
+  --c_1: 8.33%;
+  --c_2: 16.66%;
+  --c_3: 25%;
+  --c_4: 33.33%;
+  --c_5: 41.66%;
+  --c_6: 50%;
+  --c_7: 58.33%;
+  --c_8: 66.66%;
+  --c_9: 75%;
+  --c_10: 83.33%;
+  --c_11: 91.66%;
+  --c_12: 100%;
+  --primary_font: 'Open Sans';
+  --primary_accent: #0f69bd;
+  --primary_accent_dark: #0e63b2;
+  --primary_accent_light: #1e79cd;
+  --secondary_accent: #e2f1fc;
+  --secondary_accent_dark: #d4e3ed;
+  --secondary_accent_light: #e8f4fd;
+  --primary_dark: #131723;
+  --secondary_dark: #464a5d;
+  --secondary_dark_opacity: #464a5d71;
+  --tertiary_dark: #6f7585;
+  --gray: #d1d5e6;
+  --secondary_gray: #e4e4e4a7;
+  --disabled: #c6ced2;
+  --disabled_attrs: #9fa3a5;
+  --on_disabled: #a8adaf;
+  --white: #ffffff;
+  --red: #c03221;
+  --red_dark: #b12715;
+  --green: #14994b;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+  color: var(--primary_dark);
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  min-width: 320px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  color: var(--primary_accent);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}

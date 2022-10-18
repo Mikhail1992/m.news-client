@@ -1,0 +1,11 @@
+.root {
+  position: fixed;
+  right: 56px;
+  bottom: 56px;
+  max-width: 315px;
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 16px;
+}

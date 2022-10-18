@@ -1,0 +1,29 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--white);
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  fill: var(--primary_accent);
+}
+
+.button:hover {
+  background-color: var(--secondary_accent);
+}
+
+.button:active {
+  background-color: var(--secondary_accent_dark);
+}
+
+.button:focus {
+  background-color: var(--secondary_accent);
+  border-color: var(--primary_accent);
+  box-shadow: 0px 0px 6px #0000f6;
+}
+
+.button .avatar {
+  margin-right: 8px;
+}

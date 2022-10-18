@@ -1,0 +1,130 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: var(--primary_font);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: ease-in-out 0.3s;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 8px rgba(7, 16, 19, 0.25);
+}
+
+.button:focus {
+  box-shadow: 0px 0px 6px #0000f6;
+}
+
+.button:disabled {
+  background-color: var(--disabled);
+  color: var(--on_disabled);
+  fill: var(--on_disabled);
+  border-color: transparent;
+  box-shadow: none;
+  cursor: auto;
+}
+
+.button:disabled:hover {
+  background-color: var(--disabled);
+}
+
+.button.small svg {
+  margin-right: 4px;
+}
+
+.button.medium svg,
+.button.large svg {
+  margin-right: 8px;
+}
+
+.contained {
+  background-color: var(--primary_accent);
+  color: var(--white);
+  fill: var(--white);
+  border-color: var(--primary_accent);
+}
+
+.contained:hover {
+  background-color: var(--primary_accent_light);
+}
+
+.contained:active {
+  background-color: var(--primary_accent_dark);
+}
+
+.contained:focus {
+  background-color: var(--primary_accent_light);
+}
+
+.outlined {
+  background-color: var(--white);
+  border-color: var(--primary_accent);
+  color: var(--primary_accent);
+  fill: var(--primary_accent);
+}
+
+.outlined:hover {
+  background-color: var(--secondary_accent);
+}
+
+.outlined:active {
+  background-color: var(--secondary_accent_dark);
+}
+
+.outlined:focus {
+  border-color: var(--primary_accent);
+}
+
+.secondary {
+  background-color: var(--secondary_accent);
+  border-color: var(--secondary_accent);
+  color: var(--primary_accent);
+  fill: var(--primary_accent);
+}
+
+.secondary:hover {
+  border-color: var(--primary_accent);
+  background-color: var(--secondary_accent_light);
+}
+
+.secondary:active {
+  border-color: var(--primary_accent);
+  background-color: var(--secondary_accent_dark);
+}
+
+.secondary:focus {
+  background-color: var(--secondary_accent_light);
+  border-color: var(--primary_accent);
+}
+
+.small {
+  padding: 4px;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  text-transform: none;
+}
+
+.medium {
+  padding: 8px 16px;
+  font-size: 1.125rem;
+}
+
+.large {
+  max-width: 462px;
+  width: 100%;
+  padding: 18px;
+  font-size: 1.1875rem;
+}
+
+.fullWidth {
+  width: 100%;
+}

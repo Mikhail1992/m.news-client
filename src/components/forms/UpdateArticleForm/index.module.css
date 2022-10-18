@@ -1,0 +1,46 @@
+.form {
+  padding-top: 16px;
+}
+
+.field {
+  margin-bottom: 32px;
+}
+
+.fieldContainer {
+  width: 50%;
+}
+
+.label {
+  font-weight: 600;
+  line-height: 1.375rem;
+  color: var(--secondary_dark);
+}
+
+.area svg {
+  color: var(--tertiary_dark);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.buttons > button {
+  margin: 0 16px;
+}
+
+.buttons > button:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 900px) {
+  .form {
+    padding-top: 0;
+  }
+
+  .fieldContainer {
+    width: 100%;
+  }
+}

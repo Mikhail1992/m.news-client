@@ -1,0 +1,16 @@
+.root {
+  width: 100%;
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+.comment {
+  justify-content: flex-end;
+}
+
+@media (max-width: 740px) {
+  .comment {
+    justify-content: flex-start;
+  }
+}

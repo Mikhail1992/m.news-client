@@ -1,0 +1,32 @@
+.user {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 16px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select {
+  margin-top: -24px;
+}
+
+@media (max-width: 900px) {
+  .user {
+    margin-bottom: 8px;
+  }
+
+  .button {
+    justify-content: flex-start;
+  }
+
+  .select {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}

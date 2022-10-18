@@ -1,0 +1,18 @@
+.root {
+  padding: 24px 0;
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 32px;
+  font-size: 1.5rem;
+  line-height: 2.0625rem;
+  font-weight: 700;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 82px);
+}

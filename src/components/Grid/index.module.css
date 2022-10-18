@@ -1,0 +1,288 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gap-1 {
+  margin-left: -8px;
+  margin-top: -8px;
+  width: calc(100% + 8px);
+}
+
+.gap-2 {
+  margin-left: -16px;
+  margin-top: -16px;
+  width: calc(100% + 16px);
+}
+
+.gap-3 {
+  margin-left: -24px;
+  margin-top: -24px;
+  width: calc(100% + 24px);
+}
+
+.gap-1 > .item {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.gap-2 > .item {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.gap-3 > .item {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.item {
+  flex-grow: 0;
+}
+
+.xs-1 {
+  flex-basis: var(--c_1);
+  max-width: var(--c_1);
+}
+
+.xs-2 {
+  flex-basis: var(--c_2);
+  max-width: var(--c_2);
+}
+
+.xs-3 {
+  flex-basis: var(--c_3);
+  max-width: var(--c_3);
+}
+
+.xs-4 {
+  flex-basis: var(--c_4);
+  max-width: var(--c_4);
+}
+
+.xs-5 {
+  flex-basis: var(--c_5);
+  max-width: var(--c_5);
+}
+
+.xs-6 {
+  flex-basis: var(--c_6);
+  max-width: var(--c_6);
+}
+
+.xs-7 {
+  flex-basis: var(--c_7);
+  max-width: var(--c_7);
+}
+
+.xs-8 {
+  flex-basis: var(--c_8);
+  max-width: var(--c_8);
+}
+
+.xs-9 {
+  flex-basis: var(--c_9);
+  max-width: var(--c_9);
+}
+
+.xs-10 {
+  flex-basis: var(--c_10);
+  max-width: var(--c_10);
+}
+
+.xs-11 {
+  flex-basis: var(--c_11);
+  max-width: var(--c_11);
+}
+
+.xs-12 {
+  flex-basis: var(--c_12);
+  max-width: var(--c_12);
+}
+
+@media (min-width: 600px) {
+  .sm-1 {
+    flex-basis: var(--c_1);
+    max-width: var(--c_1);
+  }
+
+  .sm-2 {
+    flex-basis: var(--c_2);
+    max-width: var(--c_2);
+  }
+
+  .sm-3 {
+    flex-basis: var(--c_3);
+    max-width: var(--c_3);
+  }
+
+  .sm-4 {
+    flex-basis: var(--c_4);
+    max-width: var(--c_4);
+  }
+
+  .sm-5 {
+    flex-basis: var(--c_5);
+    max-width: var(--c_5);
+  }
+
+  .sm-6 {
+    flex-basis: var(--c_6);
+    max-width: var(--c_6);
+  }
+
+  .sm-7 {
+    flex-basis: var(--c_7);
+    max-width: var(--c_7);
+  }
+
+  .sm-8 {
+    flex-basis: var(--c_8);
+    max-width: var(--c_8);
+  }
+
+  .sm-9 {
+    flex-basis: var(--c_9);
+    max-width: var(--c_9);
+  }
+
+  .sm-10 {
+    flex-basis: var(--c_10);
+    max-width: var(--c_10);
+  }
+
+  .sm-11 {
+    flex-basis: var(--c_11);
+    max-width: var(--c_11);
+  }
+
+  .sm-12 {
+    flex-basis: var(--c_12);
+    max-width: var(--c_12);
+  }
+}
+
+@media (min-width: 900px) {
+  .md-1 {
+    flex-basis: var(--c_1);
+    max-width: var(--c_1);
+  }
+
+  .md-2 {
+    flex-basis: var(--c_2);
+    max-width: var(--c_2);
+  }
+
+  .md-3 {
+    flex-basis: var(--c_3);
+    max-width: var(--c_3);
+  }
+
+  .md-4 {
+    flex-basis: var(--c_4);
+    max-width: var(--c_4);
+  }
+
+  .md-5 {
+    flex-basis: var(--c_5);
+    max-width: var(--c_5);
+  }
+
+  .md-6 {
+    flex-basis: var(--c_6);
+    max-width: var(--c_6);
+  }
+
+  .md-7 {
+    flex-basis: var(--c_7);
+    max-width: var(--c_7);
+  }
+
+  .md-8 {
+    flex-basis: var(--c_8);
+    max-width: var(--c_8);
+  }
+
+  .md-9 {
+    flex-basis: var(--c_9);
+    max-width: var(--c_9);
+  }
+
+  .md-10 {
+    flex-basis: var(--c_10);
+    max-width: var(--c_10);
+  }
+
+  .md-11 {
+    flex-basis: var(--c_11);
+    max-width: var(--c_11);
+  }
+
+  .md-12 {
+    flex-basis: var(--c_12);
+    max-width: var(--c_12);
+  }
+}
+
+@media (min-width: 1200px) {
+  .lg-1 {
+    flex-basis: var(--c_1);
+    max-width: var(--c_1);
+  }
+
+  .lg-2 {
+    flex-basis: var(--c_2);
+    max-width: var(--c_2);
+  }
+
+  .lg-3 {
+    flex-basis: var(--c_3);
+    max-width: var(--c_3);
+  }
+
+  .lg-4 {
+    flex-basis: var(--c_4);
+    max-width: var(--c_4);
+  }
+
+  .lg-5 {
+    flex-basis: var(--c_5);
+    max-width: var(--c_5);
+  }
+
+  .lg-6 {
+    flex-basis: var(--c_6);
+    max-width: var(--c_6);
+  }
+
+  .lg-7 {
+    flex-basis: var(--c_7);
+    max-width: var(--c_7);
+  }
+
+  .lg-8 {
+    flex-basis: var(--c_8);
+    max-width: var(--c_8);
+  }
+
+  .lg-9 {
+    flex-basis: var(--c_9);
+    max-width: var(--c_9);
+  }
+
+  .lg-10 {
+    flex-basis: var(--c_10);
+    max-width: var(--c_10);
+  }
+
+  .lg-11 {
+    flex-basis: var(--c_11);
+    max-width: var(--c_11);
+  }
+
+  .lg-12 {
+    flex-basis: var(--c_12);
+    max-width: var(--c_12);
+  }
+}

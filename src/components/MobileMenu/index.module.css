@@ -1,0 +1,114 @@
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background-color: var(--white);
+  transition: ease-in-out 0.5s;
+}
+
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.iconButton:hover {
+  cursor: pointer;
+  background-color: var(--gray);
+}
+
+.iconButton:active {
+  background-color: var(--secondary_dark_opacity);
+}
+
+.enteringLayout {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary_dark_opacity);
+}
+
+.asideMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 270px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  height: 100%;
+  background-color: var(--white);
+  z-index: 100;
+  overflow: auto;
+  transform: translateX(100%);
+}
+
+.enteringAsideMenu {
+  animation: 0.3s slideIn forwards;
+}
+
+.exitingAsideMenu {
+  animation: 0.3s slideOut forwards;
+}
+
+.list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.authLink {
+  text-decoration: none;
+  color: var(--tertiary_dark);
+  fill: var(--tertiary_dark);
+  border: none;
+  cursor: pointer;
+  padding: 8px 24px;
+  width: 100%;
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.authLink:active,
+.authLink:focus,
+.authLink:hover {
+  color: var(--primary_dark);
+  fill: var(--primary_dark);
+  background-color: var(--gray);
+}
+
+.authLinkActive {
+  color: var(--primary_dark);
+  fill: var(--primary_dark);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}

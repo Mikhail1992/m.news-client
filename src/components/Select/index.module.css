@@ -1,0 +1,88 @@
+.select {
+  position: relative;
+}
+
+.selectOpen {
+  z-index: 10;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+  height: 50px;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.body {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  padding: 4px 0;
+  transform: translateY(100%);
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+  box-shadow: 0px 2px 10px rgba(60, 74, 97, 0.1);
+}
+
+.head:hover:not(.headDisabled):not(.headError),
+.headOpen,
+.bodyOpen {
+  border-color: var(--tertiary_dark);
+}
+
+.selectOpen .arrow,
+.head:hover .arrow {
+  border-color: var(--tertiary_dark);
+}
+
+.headError {
+  border-color: var(--red);
+}
+
+.headDisabled {
+  background-color: var(--disabled);
+  border-color: var(--disabled_attrs);
+}
+
+.headDisabled .value,
+.headDisabled .placeholder {
+  color: var(--disabled_attrs);
+}
+
+.value {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary_dark);
+  line-height: 1.25rem;
+}
+
+.placeholder {
+  color: var(--gray);
+}
+
+.arrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 100%;
+  padding-left: 10px;
+  border-left: 1px solid var(--gray);
+}
+
+.option {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.option:hover {
+  background-color: var(--secondary_accent);
+}
